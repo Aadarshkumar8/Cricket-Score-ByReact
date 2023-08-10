@@ -1,0 +1,26 @@
+.container{
+height: 300px;
+width: 500px;
+border: 1px solid red;
+border-radius: 20px;
+background-color: aquamarine;
+box-shadow: 5px 5px;
+}
+/* .btn{
+    display: flex;
+    justify-content: 10px;
+} */
+
+.btn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    background-color: bisque;
+}
+.wic{
+    background-color: red;
+}
+h1{
+    color: red;
+    
+}
